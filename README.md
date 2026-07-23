@@ -4,7 +4,7 @@
 
 **Computer Science Student · Data Analytics · Web Development · UI/UX**
 
-Personal portfolio website with a **code editor & terminal** inspired interface, built using **Native PHP**, **Tailwind CSS**, and **Vanilla JavaScript**.
+Personal portfolio website with a **code editor & terminal** inspired interface, built using **Native PHP**, **Tailwind CSS**, and **JavaScript**.
 
 Project data is fetched automatically from the **GitHub REST API** and combined with manually curated projects such as Tableau dashboards, Excel analysis, and UI/UX designs.
 
@@ -22,15 +22,13 @@ Unlike a typical static portfolio, repositories are fetched dynamically using th
 
 ## ✨ Features
 
-- 💻 Code editor inspired interface
-- 🌈 Animated hero section with typewriter effect
-- 📂 Automatic GitHub repository integration
-- 🗂 Project filtering by category
-- 🧠 Manual project support (Excel, Tableau, UI/UX)
-- ⚡ Scroll reveal animations
-- 📱 Fully responsive layout
-- 🖥 Terminal-style contact section
-- ♿ Supports `prefers-reduced-motion`
+- Code editor inspired interface
+- Animated hero section with typewriter effect
+- Automatic GitHub repository integration
+- Project filtering by category
+- Scroll reveal animations
+- Fully responsive layout
+- Terminal-style contact section
 
 ---
 
