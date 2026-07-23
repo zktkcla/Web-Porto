@@ -13,19 +13,11 @@ Project data is fetched automatically from the **GitHub REST API** and combined 
 ![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black)
 ![GitHub API](https://img.shields.io/badge/GitHub_API-REST-181717?logo=github&logoColor=white)
 
-[🌐 Live Demo](#) • [📂 Repository](https://github.com/zktkcla/portofolio-tailwind)
+[📂 Repository](https://github.com/zktkcla/portofolio-tailwind)
 
 </div>
 
 ---
-
-## 📸 Preview
-
-> Tambahkan screenshot website di sini.
-
-```
-assets/img/preview.png
-```
 
 ---
 
@@ -139,10 +131,6 @@ This project uses several CDN services:
 ## 👨‍💻 Author
 
 **Althaf Hilmi Haidar**
-
-- 🌐 Portfolio : *(add link)*
-- 💼 LinkedIn : *(add link)*
-- 📧 Email : *(add email)*
 
 ---
 
