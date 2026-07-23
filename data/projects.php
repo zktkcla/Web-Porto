@@ -133,6 +133,6 @@ $projectsManual = [
         "category" => "web",
         "ext"      => ".com",
         "desc"     => "",
-        "tech"     => ["PHP Native", "Javascript", "API", "SQL"],
+        "tech"     => ["PHP Native", "Javascript", "API"],
     ],
 ];
