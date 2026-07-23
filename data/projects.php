@@ -94,7 +94,7 @@ $projectsManual = [
         "category" => "web",
         "ext"      => ".com",
         "desc"     => "LabHub is a web-based laboratory reservation system developed as a final project for the Web Programming course. This system makes it easier for students and faculty to make online lab reservations, while also helping administrators manage lab data, schedules, and users centrally. The website was built using PHP, MySQL, and Tailwind CSS, and incorporates authentication, CRUD, and access control features to create a more efficient and organized reservation process.",
-        "tech"     => ["PHP Native", "Javascript", "API", "SQL"],
+        "tech"     => ["PHP Native", "Javascript", "CRUD", "SQL"],
         "link"     => "https://github.com/Lodi7/Sistem-Reservasi-Ruangan"
     ],
 
