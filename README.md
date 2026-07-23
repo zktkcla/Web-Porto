@@ -8,16 +8,7 @@ Personal portfolio website with a **code editor & terminal** inspired interface,
 
 Project data is fetched automatically from the **GitHub REST API** and combined with manually curated projects such as Tableau dashboards, Excel analysis, and UI/UX designs.
 
-![PHP](https://img.shields.io/badge/PHP-Native-777BB4?logo=php&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-CDN-38BDF8?logo=tailwindcss&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black)
-![GitHub API](https://img.shields.io/badge/GitHub_API-REST-181717?logo=github&logoColor=white)
-
-[📂 Repository](https://github.com/zktkcla/portofolio-tailwind)
-
 </div>
-
----
 
 ---
 
@@ -77,37 +68,6 @@ portofolio-tailwind/
 ├── proyek.php
 └── README.md
 ```
-
----
-
-## 🚀 Getting Started
-
-### Clone Repository
-
-```bash
-git clone https://github.com/zktkcla/portofolio-tailwind.git
-cd portofolio-tailwind
-```
-
-### Run with PHP Built-in Server
-
-```bash
-php -S localhost:8000
-```
-
-or place the project inside:
-
-- Laragon → `www`
-- XAMPP → `htdocs`
-
-Then open:
-
-```
-http://localhost:8000
-```
-
----
-
 ## 🌐 External Resources
 
 This project uses several CDN services:
