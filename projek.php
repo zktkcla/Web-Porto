@@ -8,7 +8,7 @@ include 'data/projects.php';
     <section class="min-h-screen py-28">
         <div class="max-w-[1080px] mx-auto px-6">
             <a href="index.php#projek" class="inline-block mt-10 font-display text-[13px] text-textmutedark hover:text-lilac transition-colors mb-4">&larr; Kembali ke beranda</a>
-            <h1 class="font-display font-bold text-[clamp(28px,4vw,40px)] tracking-tight mb-4">Semua Proyek</h1>
+            <h1 class="font-display font-bold text-[clamp(28px,4vw,40px)] tracking-tight mb-4">Semua Projek</h1>
             <p class="text-textmutedark max-w-[620px] leading-[1.7] mb-8">
                 Kumpulan projek yang pernah saya kerjakan dan dikelompokkan berdasarkan kategori. Pilih tab untuk filter kategori.
             </p>

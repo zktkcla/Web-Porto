@@ -151,7 +151,7 @@ $deskripsiHero = "Memiliki minat pada Data Analysis, Web Development, dan UI/UX 
                     <h2 class="font-display font-bold text-[clamp(26px,3.2vw,34px)] tracking-tight m-0">Projek Saya</h2>
                 </div>
                 <div class="flex items-center gap-2.5">
-                    <a href="proyek.php"
+                    <a href="projek.php"
                        class="mt-1 font-display text-[13px] px-4 py-2.5 rounded-lg border border-purple text-lilac whitespace-nowrap transition-all hover:bg-purple hover:text-white hover:-translate-y-0.5">
                         Selengkapnya &rarr;
                     </a>
