@@ -73,6 +73,7 @@ $githubUsername = basename(rtrim($github, '/'));
 
         @media (max-width: 680px) {
             .nav-toggle { display: flex !important; }
+            .tabbar { display: flex; }
             .tabbar {
                 display: none;
                 position: absolute;
@@ -142,7 +143,7 @@ $githubUsername = basename(rtrim($github, '/'));
                 <span class="w-5 h-0.5 bg-textlight block"></span>
             </button>
 
-            <nav class="tabbar flex gap-0.5 overflow-x-auto" id="tabbar">
+            <nav class="tabbar gap-0.5 overflow-x-auto" id="tabbar">
                 <a href="index.php#beranda" class="tab active font-display text-[13px] text-textmutedark px-3.5 py-2 rounded-t-md whitespace-nowrap transition-colors">beranda</a>
                 <a href="index.php#tentang" class="tab font-display text-[13px] text-textmutedark px-3.5 py-2 rounded-t-md whitespace-nowrap transition-colors">tentang saya</a>
                 <a href="index.php#skill" class="tab font-display text-[13px] text-textmutedark px-3.5 py-2 rounded-t-md whitespace-nowrap transition-colors">skill</a>
