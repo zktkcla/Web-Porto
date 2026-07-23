@@ -103,7 +103,7 @@ $deskripsiHero = "Memiliki minat pada Data Analysis, Web Development, dan UI/UX 
                 <div class="grid grid-cols-2 gap-3.5">
                     <div class="reveal group bg-white/5 border border-white/10 backdrop-blur-sm rounded-[10px] p-[18px] text-center transition-all duration-300 hover:-translate-y-1 hover:border-purple/50 hover:bg-white/10 hover:shadow-purple cursor-default">
                         <span id="projectCountStat" class="block font-display text-2xl text-lilac font-bold transition-transform duration-300 group-hover:scale-110" data-counter="0" data-suffix="+">0+</span>
-                        <span class="text-[12.5px] text-textmutedark">Proyjk Dibangun</span>
+                        <span class="text-[12.5px] text-textmutedark">Proyek Dibangun</span>
                     </div>
                     <div class="reveal group bg-white/5 border border-white/10 backdrop-blur-sm rounded-[10px] p-[18px] text-center transition-all duration-300 hover:-translate-y-1 hover:border-purple/50 hover:bg-white/10 hover:shadow-purple cursor-default">
                         <span class="block font-display text-2xl text-lilac font-bold transition-transform duration-300 group-hover:scale-110">Sem. 5</span>
@@ -148,7 +148,7 @@ $deskripsiHero = "Memiliki minat pada Data Analysis, Web Development, dan UI/UX 
         <div class="max-w-[1080px] mx-auto px-6 w-full">
             <div class="reveal flex items-start justify-between flex-wrap gap-3.5 mb-2">
                 <div>
-                    <h2 class="font-display font-bold text-[clamp(26px,3.2vw,34px)] tracking-tight m-0">Projek yang Telah Diselesaikan</h2>
+                    <h2 class="font-display font-bold text-[clamp(26px,3.2vw,34px)] tracking-tight m-0">Projek Saya</h2>
                 </div>
                 <div class="flex items-center gap-2.5">
                     <a href="proyek.php"

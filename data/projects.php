@@ -127,5 +127,12 @@ $projectsManual = [
         "tech"     => ["Linux", "Security", "Penetration Testing"],
     ],
 
-
+    [
+        "repo"     => "Web-Porto",
+        "title"    => "Website Portofolio",
+        "category" => "web",
+        "ext"      => ".com",
+        "desc"     => "",
+        "tech"     => ["PHP Native", "Javascript", "API", "SQL"],
+    ],
 ];

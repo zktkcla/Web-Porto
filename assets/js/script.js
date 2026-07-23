@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 });
             },
-            { threshold: 0.15, rootMargin: "0px 0px -60px 0px" }
+            { threshold: 0.90, rootMargin: "0px 0px -60px 0px" }
         );
 
         revealEls.forEach(function (el) {
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        const duration = 900; // ms
+        const duration = 3000; // ms
         const startTime = performance.now();
 
         function step(now) {

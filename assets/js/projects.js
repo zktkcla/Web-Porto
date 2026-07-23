@@ -124,5 +124,26 @@ window.PortfolioProjects = (function () {
         );
     }
 
-    return { load: load, cardHTML: cardHTML };
+    function revealCards(container, stagger) {
+        if (!container) return;
+        stagger = typeof stagger === "number" ? stagger : 60;
+    
+        var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var cards = container.querySelectorAll(".reveal");
+    
+        if (prefersReducedMotion) {
+            cards.forEach(function (card) { card.classList.add("in-view"); });
+            return;
+        }
+    
+        requestAnimationFrame(function () {
+            cards.forEach(function (card, i) {
+                setTimeout(function () {
+                    card.classList.add("in-view");
+                }, i * stagger);
+            });
+        });
+    }
+
+    return { load: load, cardHTML: cardHTML, revealCards: revealCards };
 })();

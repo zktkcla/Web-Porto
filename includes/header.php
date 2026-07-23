@@ -92,22 +92,22 @@ $githubUsername = basename(rtrim($github, '/'));
 
         @media (prefers-reduced-motion: reduce) {
             html { scroll-behavior: auto; }
-            * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+            * { animation-duration: 2s !important; transition-duration: 0.001ms !important; }
         }
 
         .reveal {
             opacity: 0;
-            transform: translateY(28px);
-            transition: opacity 0.6s cubic-bezier(0.2,0.6,0.2,1), transform 0.6s cubic-bezier(0.2,0.6,0.2,1);
+            transform: translateY(40px);
+            transition: opacity 0.5s cubic-bezier(0.2,0.6,0.2,1), transform 0.6s cubic-bezier(0.2,0.6,0.2,1);
         }
         .reveal.in-view { opacity: 1; transform: translateY(0); }
         .project-grid .reveal:nth-child(1) { transition-delay: 0s; }
-        .project-grid .reveal:nth-child(2) { transition-delay: 0.08s; }
-        .project-grid .reveal:nth-child(3) { transition-delay: 0.16s; }
+        .project-grid .reveal:nth-child(2) { transition-delay: 0.06s; }
+        .project-grid .reveal:nth-child(3) { transition-delay: 0.18s; }
         .contact-list .reveal:nth-child(1) { transition-delay: 0s; }
-        .contact-list .reveal:nth-child(2) { transition-delay: 0.06s; }
-        .contact-list .reveal:nth-child(3) { transition-delay: 0.12s; }
-        .contact-list .reveal:nth-child(4) { transition-delay: 0.18s; }
+        .contact-list .reveal:nth-child(2) { transition-delay: 0.2s; }
+        .contact-list .reveal:nth-child(3) { transition-delay: 0.4s; }
+        .contact-list .reveal:nth-child(4) { transition-delay: 0.6s; }
 
         .cat-tab.active { background: #7C3AED; border-color: #7C3AED; color: #F1EDFB; }
         .cat-tab:hover:not(.active) { border-color: rgba(196,181,253,0.5); color: #F1EDFB; }
