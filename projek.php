@@ -22,7 +22,7 @@ include 'data/projects.php';
             </div>
 
             <div class="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-[22px]" id="allProjectGrid">
-                <p class="text-textmutedark col-span-full font-display text-sm">Memuat proyek dari GitHub&hellip;</p>
+                <p class="text-textmutedark col-span-full font-display text-sm">Memuat projek dari GitHub&hellip;</p>
             </div>
 
         </div>

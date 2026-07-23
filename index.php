@@ -103,7 +103,7 @@ $deskripsiHero = "Memiliki minat pada Data Analysis, Web Development, dan UI/UX 
                 <div class="grid grid-cols-2 gap-3.5">
                     <div class="reveal group bg-white/5 border border-white/10 backdrop-blur-sm rounded-[10px] p-[18px] text-center transition-all duration-300 hover:-translate-y-1 hover:border-purple/50 hover:bg-white/10 hover:shadow-purple cursor-default">
                         <span id="projectCountStat" class="block font-display text-2xl text-lilac font-bold transition-transform duration-300 group-hover:scale-110" data-counter="0" data-suffix="+">0+</span>
-                        <span class="text-[12.5px] text-textmutedark">Proyek Dibangun</span>
+                        <span class="text-[12.5px] text-textmutedark">Projek Dibangun</span>
                     </div>
                     <div class="reveal group bg-white/5 border border-white/10 backdrop-blur-sm rounded-[10px] p-[18px] text-center transition-all duration-300 hover:-translate-y-1 hover:border-purple/50 hover:bg-white/10 hover:shadow-purple cursor-default">
                         <span class="block font-display text-2xl text-lilac font-bold transition-transform duration-300 group-hover:scale-110">Sem. 5</span>
