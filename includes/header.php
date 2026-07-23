@@ -12,6 +12,7 @@ $githubUsername = basename(rtrim($github, '/'));
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $namaLengkap; ?> — Portofolio</title>
     <meta name="description" content="Portofolio <?php echo $namaLengkap; ?>, <?php echo $posisi; ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/web-icon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -72,20 +73,47 @@ $githubUsername = basename(rtrim($github, '/'));
         .tabbar::-webkit-scrollbar { display: none; }
 
         @media (max-width: 680px) {
-            .nav-toggle { display: flex !important; }
-            .tabbar { display: flex; }
-            .tabbar {
-                display: none;
-                position: absolute;
-                top: 56px; left: 0; right: 0;
-                background: #14121F;
-                flex-direction: column;
-                padding: 8px 16px 16px;
-                border-bottom: 1px solid rgba(124,58,237,0.3);
-            }
-            .tabbar.open { display: flex; }
-            .tab { padding: 12px 6px; border-radius: 0; border-bottom: 1px solid rgba(124,58,237,0.15); }
+        .nav-toggle { display: flex !important; }
+        .tabbar {
+            position: absolute;
+            top: 56px; left: 0; right: 0;
+            background: #14121F;
+            flex-direction: column;
+            border-bottom: 1px solid rgba(124,58,237,0.3);
+            display: flex;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            padding: 0 16px;
+            transform: translateY(-6px);
+            pointer-events: none;
+            transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1),
+                        opacity 0.3s ease,
+                        transform 0.35s cubic-bezier(0.2,0.6,0.2,1),
+                        padding 0.4s ease;
         }
+        .tabbar.open {
+            max-height: 320px;
+            opacity: 1;
+            transform: translateY(0);
+            padding: 8px 16px 16px;
+            pointer-events: auto;
+        }
+        .tab { padding: 12px 6px; border-radius: 0; border-bottom: 1px solid rgba(124,58,237,0.15); }
+
+        /* Setiap item menu masuk satu-satu (stagger) saat dropdown dibuka */
+        .tabbar .tab {
+            opacity: 0;
+            transform: translateX(-12px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        .tabbar.open .tab { opacity: 1; transform: translateX(0); }
+        .tabbar.open .tab:nth-child(1) { transition-delay: 0.06s; }
+        .tabbar.open .tab:nth-child(2) { transition-delay: 0.12s; }
+        .tabbar.open .tab:nth-child(3) { transition-delay: 0.18s; }
+        .tabbar.open .tab:nth-child(4) { transition-delay: 0.24s; }
+        .tabbar.open .tab:nth-child(5) { transition-delay: 0.3s; }
+    }
 
         .tab { border-bottom: 2px solid transparent; }
         .tab.active { color: #C4B5FD; background: rgba(124, 58, 237, 0.15); border-bottom-color: #7C3AED; }
@@ -131,9 +159,10 @@ $githubUsername = basename(rtrim($github, '/'));
     </div>
 
     <!-- Navigasi -->
-    <header class="sticky top-0 z-50 bg-ink border-b border-purple/35">
+    <header class="sticky header-site top-0 z-50 bg-ink border-b border-purple/35">
         <div class="max-w-[1080px] mx-auto px-6 flex items-center gap-8 h-14">
             <div class="flex items-center gap-2 font-display text-textlight text-sm shrink-0">
+                <img src="assets/img/navbar-icon.png" alt="Logo Althaf Hilmi Haidar" class="brand-logo w-6 h-6 rounded-md">
                 <span>AlthafHilmiHaidar</span>
             </div>
 

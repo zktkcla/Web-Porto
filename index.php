@@ -97,7 +97,7 @@ $deskripsiHero = "Memiliki minat pada Data Analysis, Web Development, dan UI/UX 
             <div class="grid grid-cols-[1.4fr_0.8fr] gap-10 items-center max-[860px]:grid-cols-1">
                 <p class="reveal leading-[1.8] text-textmutedark">
                     <?php
-                    echo "Mahasiswa Informatika yang berfokus pada Data Analytics, Web Development, dan UI/UX Design. Menguasai SQL, Excel, Tableau, PHP, JavaScript, HTML, CSS, dan MySQL untuk membangun dashboard, menganalisis data, serta mengembangkan aplikasi web yang responsif dan mudah digunakan. Memiliki kemampuan analitis, teliti dalam menyelesaikan permasalahan, serta berkomitmen untuk terus mengembangkan solusi berbasis data, teknologi, dan pengalaman pengguna.";
+                    echo "Mahasiswa Informatika UPN Veteran Jawa Timur yang berfokus pada Data Analytics, Web Development, dan UI/UX Design. Menguasai SQL, Excel, Tableau, PHP, JavaScript, HTML, CSS, dan MySQL untuk membangun dashboard, menganalisis data, serta mengembangkan aplikasi web yang responsif dan mudah digunakan. Memiliki kemampuan analitis, teliti dalam menyelesaikan permasalahan, serta berkomitmen untuk terus mengembangkan solusi berbasis data, teknologi, dan pengalaman pengguna.";
                     ?>
                 </p>
                 <div class="grid grid-cols-2 gap-3.5">
@@ -153,12 +153,12 @@ $deskripsiHero = "Memiliki minat pada Data Analysis, Web Development, dan UI/UX 
                 <div class="flex items-center gap-2.5">
                     <a href="proyek.php"
                        class="mt-1 font-display text-[13px] px-4 py-2.5 rounded-lg border border-purple text-lilac whitespace-nowrap transition-all hover:bg-purple hover:text-white hover:-translate-y-0.5">
-                        Lihat Selengkapnya &rarr;
+                        Selengkapnya &rarr;
                     </a>
                 </div>
             </div>
             <p class="reveal text-textmutedark max-w-[620px] leading-[1.7] mb-10">
-                Kumpulan projek yang telah saya kerjakan. "Lihat Selengkapnya" untuk melihat semua projek per kategori.
+                Kumpulan projek yang telah saya kerjakan. "Selengkapnya" untuk melihat semua projek per kategori.
             </p>
 
             <div class="project-grid grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-[22px]" id="projectGrid">
